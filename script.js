@@ -1,3 +1,4 @@
+// 1st Exercise
 let groceryList = [];
 
 groceryList[0] = "Milk";
@@ -12,3 +13,13 @@ groceryList[groceryList.length] = "Fruits";
 groceryList[groceryList.length] = "Beef";
 
 console.log(groceryList.length);
+
+// 2nd Exercise
+let shoppingCart = [];
+
+shoppingCart.push("Butter", "Jelly", "Pasta")
+console.log(shoppingCart);
+
+let removedItem = shoppingCart.pop();
+console.log(removedItem)
+console.log(shoppingCart)
